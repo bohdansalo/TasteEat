@@ -1,5 +1,10 @@
 :root {
   --bg-color: #292e36;
+  --colorTextWhite: #ffffff;
+
+  /* text */
+  --font-family: "Josefin Sans", serif;
+  --second-family: "Cormorant Infant", sans-serif;
 }
 .header {
   background-color: var(--bg-color);
@@ -10,17 +15,16 @@
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
   padding: 15px;
 }
 .container-info {
-  max-width: 1440px;
-  justify-content: space-between;
+  border-bottom: 2px dashed #e1b168;
 }
 .logo {
   margin-top: 50px;
   margin-left: 201px;
   margin-right: 201px;
+  margin-bottom: 20px;
 }
 .phone-button {
   border: 2px solid #e1b168;
@@ -28,6 +32,7 @@
   margin-left: 40px;
 }
 .info-button {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
@@ -39,18 +44,94 @@
   background-color: var(--bg-color);
 }
 .reservation-button {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
   letter-spacing: 0.01em;
   margin-top: 67px;
-  margin-left: 40px;
   text-align: center;
-  align-items: center;
   color: #fff;
   padding: 20px 57px;
   background-color: #e1b168;
 }
 .reservation-btn {
   background-color: #e1b168;
+}
+.navigation-container {
+  background-color: #292e36;
+  height: 82px;
+  display: flex;
+  border-bottom: 2px solid #e1b168;
+}
+.nav-list {
+  display: flex;
+  gap: 60px;
+  margin-left: 30px;
+  color: var(--colorTextWhite);
+}
+.nav-item:hover {
+  color: #e1b168;
+  transition-duration: 350ms;
+}
+
+/* main */
+.hero {
+  background-color: #292e36;
+}
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110%;
+  letter-spacing: 0em;
+  color: var(--colorTextWhite);
+}
+.hero-content {
+  width: 655px;
+}
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  margin-top: 26px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+.hero-button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #e1b168;
+  background-color: #292e36;
+  border: 2px solid #e1b168;
+  padding: 10px 52px;
+}
+.image {
+  margin-top: 40px;
+}
+.image-hero {
+  width: 595px;
+  display: block;
+}
+.position-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.position-item {
+  width: 440px;
+}
+.position-img {
+  height: 83px;
+  width: 83px;
 }
