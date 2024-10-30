@@ -101,6 +101,7 @@
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.01em;
+  text-align: start;
   margin-top: 26px;
   margin-bottom: 35px;
   color: #fff;
@@ -170,7 +171,6 @@
   display: block;
   position: relative;
   width: 471px;
-  margin-bottom: 270px;
   margin-left: 45px;
 }
 
@@ -186,6 +186,7 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
+  text-align: start;
   line-height: 150%;
   letter-spacing: 0.01em;
   color: #555;
@@ -208,17 +209,19 @@
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 40px;
-
   line-height: 140%;
   display: flex;
-  text-align: center;
+  margin-left: 33%;
   letter-spacing: 0.01em;
+
   color: #292e36;
 }
 .data-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
+  width: 247px;
+  text-align: start;
   line-height: 150%;
   letter-spacing: 0.01em;
   color: #555;
@@ -240,5 +243,126 @@
   text-transform: uppercase;
   text-decoration: line-through;
   letter-spacing: 0.01em;
+
   color: #555;
+}
+.img-joselin {
+  margin-top: 50px;
+}
+/* menu */
+.menu {
+  margin-top: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.menu-container {
+  justify-content: space-between;
+  display: flex;
+}
+.asorti {
+  width: 491px;
+}
+.asorti-title {
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  padding-top: 5px;
+  width: 60px;
+}
+.menu-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #292e36;
+}
+.asorti-titles {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  margin-top: 12px;
+  text-align: start;
+  margin-bottom: 13px;
+  color: #292e36;
+}
+.asorti-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #555;
+  width: 486px;
+  text-align: start;
+}
+.asorti-img {
+  display: block;
+  width: 398px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.asorti-button {
+  background-color: #fff;
+  display: flex;
+  padding: 20px 57px;
+  border: 2px solid #e1b168;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #e1b168;
+  align-items: start;
+}
+/* menu */
+.starters-list {
+  display: flex;
+  align-items: center;
+  width: 820px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.starters-item {
+  width: 818px;
+}
+.starters-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #292e36;
+}
+.starters-titles {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #292e36;
+}
+.starters-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #555;
+}
+.starters-price {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #292e36;
+}
+.starters-img {
+  display: flex;
+  align-items: center;
 }
